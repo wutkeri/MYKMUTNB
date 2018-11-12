@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/trianglify">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="77dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="245dp"
+                app:srcCompat="@drawable/banner2kmutnb" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:text="          กระทรวงศึกษาธิการ ได้ประกาศจัดตั้ง โรงเรียนเทคนิคพระนครเหนือ สังกัดกรมอาชีวศึกษา เมื่อวันที่ 19 กุมภาพันธ์ พ.ศ. 2502 "
+                android:textSize="22dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kmutnbredsuit" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:text='          โดยมีวัตถุประสงค์เพื่อผลิตช่างฝีมือที่เน้นการปฏิบัติและประสบการณ์จริง ซึ่งเป็นที่รู้จักกันทั่วไปในนาม "เทคนิคไทย - เยอรมัน" '
+                android:textSize="22dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/logotgdefooter" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:text="             ต่อมาได้มีการลงนามในสัญญาความร่วมมือทางวิชาการระหว่าง รัฐบาลไทยกับรัฐบาลสหพันธ์สาธารณรัฐเยอรมันฉบับแรก ในวันที่ 16 มีนาคม พ.ศ. 2502"
+                android:textSize="22dp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
